@@ -1,0 +1,10 @@
+category: Audio Video KDE
+requires: cygwin kdelibs4 qt3 mplayer
+sdesc: "KDE MPlayer frontend"
+ldesc: "KPlayer is a KDE multimedia player which uses MPlayer as the 
+media playing backend, and therefore offers the best playback quality 
+and performance and the widest variety of supported video, audio and 
+subtitle formats, input methods and output options. Specifically, 
+MPlayer supports playing from local files, DVDs, video CDs, audio CDs, 
+TV and DVB cards, as well as network locations using many types of 
+protocols."
