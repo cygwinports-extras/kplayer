@@ -1,0 +1,5 @@
+inherit kde3
+
+DESCRIPTION="KDE MPlayer frontend"
+HOMEPAGE="http://kplayer.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
