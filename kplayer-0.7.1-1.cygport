@@ -1,0 +1,5 @@
+inherit kde4
+
+DESCRIPTION="KDE MPlayer frontend"
+HOMEPAGE="http://kplayer.sourceforge.net/"
+SRC_URI="mirror://kde/stable/${PN}/${PV}/src/${P}.tar.bz2"

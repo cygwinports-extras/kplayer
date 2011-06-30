@@ -1,5 +1,5 @@
 category: Audio Video KDE
-requires: kdelibs4 qt3 mplayer
+requires: libgcc1 libkdecore5 libQt3Support4 libQtCore4 libQtGui4 libstdc++6 libX11_6 mplayer
 sdesc: "KDE MPlayer frontend"
 ldesc: "KPlayer is a KDE multimedia player which uses MPlayer as the 
 media playing backend, and therefore offers the best playback quality 
