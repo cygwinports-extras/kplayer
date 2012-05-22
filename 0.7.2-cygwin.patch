@@ -1,0 +1,22 @@
+--- origsrc/kplayer-0.7.2/src/kplayerproperties.cpp	2012-03-28 03:05:51.000000000 -0500
++++ src/kplayer-0.7.2/src/kplayerproperties.cpp	2012-05-21 23:29:14.049659100 -0500
+@@ -1787,7 +1787,9 @@ void KPlayerProperties::initialize (void
+   info = new KPlayerBooleanPropertyInfo;
+   m_info.insert ("Direct Rendering", info);
+   strinfo = new KPlayerStringPropertyInfo;
++#ifdef __linux__
+   strinfo -> setDefaultValue ("alsa");
++#endif
+   m_info.insert ("Audio Driver", strinfo);
+   info = new KPlayerStringPropertyInfo;
+   m_info.insert ("Audio Device", info);
+@@ -1832,7 +1834,9 @@ void KPlayerProperties::initialize (void
+   info = new KPlayerStringPropertyInfo;
+   m_info.insert ("Channel List", info);
+   strinfo = new KPlayerStringPropertyInfo;
++#ifdef __linux__
+   strinfo -> setDefaultValue ("v4l2");
++#endif
+   m_info.insert ("Input Driver", strinfo);
+   intinfo = new KPlayerIntegerPropertyInfo;
+   intinfo -> setDefaultValue (-1);
