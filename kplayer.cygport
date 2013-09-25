@@ -1,0 +1,17 @@
+inherit kde4
+
+NAME="kplayer"
+VERSION=0.7.2
+RELEASE=1
+CATEGORY="Audio Video KDE"
+SUMMARY="KDE MPlayer frontend"
+DESCRIPTION="KPlayer is a KDE multimedia player which uses MPlayer as the
+media playing backend, and therefore offers the best playback quality and
+performance and the widest variety of supported video, audio and subtitle
+formats, input methods and output options. Specifically, MPlayer supports
+playing from local files, DVDs, video CDs, audio CDs, TV and DVB cards, as
+well as network locations using many types of protocols."
+REQUIRES="mplayer"
+HOMEPAGE="http://kplayer.sourceforge.net/"
+SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.xz"
+PATCH_URI="0.7.2-cygwin.patch"

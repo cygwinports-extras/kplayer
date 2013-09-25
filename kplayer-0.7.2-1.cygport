@@ -1,6 +1,0 @@
-inherit kde4
-
-DESCRIPTION="KDE MPlayer frontend"
-HOMEPAGE="http://kplayer.sourceforge.net/"
-SRC_URI="mirror://kde/stable/${PN}/${PV}/src/${P}.tar.xz"
-PATCH_URI="0.7.2-cygwin.patch"
